@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Kabaddi</title>
+
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/p5.play.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+
+  <body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+
+    <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBwhyPw-J_7LWsReFvwN9vC6ac352Y5KD4",
+    authDomain: "kabaddi-game-4adc7.firebaseapp.com",
+    databaseURL: "https://kabaddi-game-4adc7-default-rtdb.firebaseio.com",
+    projectId: "kabaddi-game-4adc7",
+    storageBucket: "kabaddi-game-4adc7.appspot.com",
+    messagingSenderId: "302670475071",
+    appId: "1:302670475071:web:8488405cdd269c5822ad8a"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+     
+
+    <script src="sketch.js"></script>
+    <script src="js/Player.js"></script>
+    <script src="js/Form.js"></script>
+    <script src="js/Game.js"></script>
+  </body>
+</html>
